@@ -159,13 +159,13 @@ ${monthsRequired <= 6 ?
   const inputClasses = "block py-1 px-2 w-full text-sm text-white bg-transparent border-0 border-b-2 border-gray-300 appearance-none focus:outline-none focus:ring-0 focus:border-green-500 peer transition-colors duration-200 placeholder-gray-400";
 
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen flex flex-col text-center">
       <NavBar />
-      <div className="lg:flex gap-8 p-8 lg:mt-[4%] mt-[20%] flex-1">
+      <div className="lg:flex gap-8 p-8 lg:mt-[4%] mt-[20%] flex-1 text-center">
         {/* Form Section */}
         <div className="lg:w-[45%] w-[95%]">
           <form onSubmit={(e) => e.preventDefault()} className="space-y-6">
-            <h1 className="text-3xl font-bold mb-8 bg-gradient-to-r from-green-500 to-green-300 bg-clip-text text-transparent">
+            <h1 className="text-3xl mt-[10%] text-center font-bold mb-8 bg-gradient-to-r from-green-500 to-green-300 bg-clip-text text-transparent">
               Spendly - AI powered Budgeting Tool
             </h1>
 
@@ -182,7 +182,7 @@ ${monthsRequired <= 6 ?
             </div>
 
             <div className="space-y-2">
-              <h2 className="text-xl font-semibold text-white">Monthly Expenses</h2>
+              <h2 className="text-xl font-semibold text-white text-center">Monthly Expenses</h2>
               <div className="grid grid-cols-2 gap-6">
                 <input
                   type="number"
@@ -251,7 +251,7 @@ ${monthsRequired <= 6 ?
             </div>
 
             <div>
-            <h2 className="text-xl font-semibold text-white mb-5">Your Goal</h2>
+            <h2 className="text-xl font-semibold text-white mb-5 text-center">Your Goal</h2>
               <input
                 type="number"
                 name="savings_target"

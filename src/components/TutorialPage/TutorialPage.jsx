@@ -44,7 +44,7 @@ const TutorialPage = () => {
       {/* Skip Button */}
       <button
         onClick={handleSkip}
-        className="absolute top-4 right-4 px-6 py-2 bg-blue-600 text-white font-semibold rounded-full hover:bg-blue-700 transition-colors duration-200 shadow-lg"
+        className="absolute top-4 right-4 px-6 py-2 bg-green-600 text-white font-semibold rounded-full hover:bg-blue-700 transition-colors duration-200 shadow-lg"
       >
         Skip Video
       </button>

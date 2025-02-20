@@ -15,7 +15,7 @@ function VideoMain() {
     
     <div className="app w-[95vw] absolute bg-grey-100 z-[99] text-white p-5">
         <NavBar/>
-        <h1 className="text-5xl mb-8 ml-9 mt-20 bg-gradient-to-br from-green-400 to-blue-600 text-transparent bg-clip-text font-extrabold tracking-wide drop-shadow-lg">
+        <h1 className="text-5xl mb-8 ml-9 mt-20 bg-gradient-to-br from-green-600 to-green-100 text-transparent bg-clip-text font-extrabold tracking-wide drop-shadow-lg">
   Community Room
 </h1>
 

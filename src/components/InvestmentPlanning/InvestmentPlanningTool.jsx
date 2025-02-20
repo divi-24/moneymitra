@@ -171,7 +171,7 @@ const InvestiMate = () => {
     <div className="lg:flex gap-8 p-8 mt-8 flex-1">
       <div className="lg:w-[46%]">
         <form onSubmit={(e) => e.preventDefault()} className="space-y-6">
-          <h1 className="text-3xl font-bold mt-10 mb-1 bg-gradient-to-r from-pink-500 to-purple-900 bg-clip-text text-transparent">
+          <h1 className="text-3xl mt-[10%] font-bold mt-10 mb-1 bg-gradient-to-r from-green-500 to-green-300 bg-clip-text text-transparent">
             InvestiMate - Investment Planning Tool 
           </h1>
 

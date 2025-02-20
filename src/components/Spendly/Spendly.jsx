@@ -5,7 +5,7 @@ const SpendlyMain = () => {
     return(
         <>
             <Spendly></Spendly>
-            <h1 className="ml-8 text-2xl">Get in touch with your local Banks</h1>
+            <h1 className="ml-8 text-2xl text-center">Get in touch with your local Banks</h1>
             <div className="grid grid-cols-3 gap-0 ml-8 mt-5">
             <div className="max-w-sm p-6 bg-zinc-600/50 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
                 <a>
